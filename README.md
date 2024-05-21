@@ -1,5 +1,4 @@
-# BrainDetectAI
-
+# NeuroVision
 ## Description
 
 Neurovision est un projet utilisant le Deep Learning pour détecter les tumeurs cérébrales à partir d'images médicales. Une interface graphique intuitive a été développée pour faciliter l'interaction avec le modèle de détection. Actuellement, l'historique des détections et la base de données ne sont pas encore fonctionnels.
