@@ -72,7 +72,7 @@ def calcul():
     INPUT_SIZE = 64
     global path
 
-    # Charger le modèle déjà fait
+    # Charger le modèle déjà fait précedement 
     model = keras.models.load_model('BrainTumor10Epochs.h5')
 
     # Compiler le modèle
