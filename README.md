@@ -20,6 +20,7 @@ Neurovision est un projet utilisant le Deep Learning pour détecter les tumeurs 
 ## État du projet
 
 - La détection des tumeurs fonctionne correctement.
+- Interface non responsive et fonctionne sur un écran 1920x1080 
 - L'interface graphique est opérationnelle.
 - Les fonctionnalités d'historique et de base de données ne sont pas encore implémentées.
 
