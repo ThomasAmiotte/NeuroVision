@@ -32,6 +32,12 @@ Neurovision est un projet utilisant le Deep Learning pour détecter les tumeurs 
 - OpenCV
 - Tkinter
 
+## Choix du nombre d'époque en fonction du LL
+
+Nous avons choisi un nombre d'epoch situé entre 8 et 12 afin d'évité tout underfitting ou overfitting
+
+![Brain Tumor Detection](readme/sweetpoint.png)
+
 ## Installation
 
 1. installer les modules :
