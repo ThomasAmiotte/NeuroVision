@@ -3,6 +3,7 @@
 # https://github.com/ParthJadhav/Tkinter-Designer
 
 
+
 from pathlib import Path
 
 # from tkinter import *
@@ -71,7 +72,7 @@ def calcul():
     INPUT_SIZE = 64
     global path
 
-    # Charger le modèle
+    # Charger le modèle déjà fait
     model = keras.models.load_model('BrainTumor10Epochs.h5')
 
     # Compiler le modèle
@@ -119,17 +120,36 @@ def calcul():
         image_15 = canvas.create_image(1061.0,190.0,image=image_image_15)
 
 
-OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\thoma\Desktop\transverseL3\gui\build\assets\frame0")
+
+
+
+
+repertoire_courant = os.getcwd()
+# Définir le chemin relatif ou utiliser une variable d'environnement
+relative_path = "/assets/frame0"
+
+# Construire le chemin complet
+ASSETS_PATH = repertoire_courant + relative_path
+
+
+print(ASSETS_PATH)
+
+
+
 
 
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
 
+
+
 window = Tk()
 
-window.geometry("1920x1080")
+
+
+window.geometry("1920x1080") # PROJET NON RESPONSIVE, amélioration possible 
+
 window.configure(bg = "#FFFFFF")
 window.iconbitmap("assets/frame0/image_1.ico")
 window.title("NeuroVision")
