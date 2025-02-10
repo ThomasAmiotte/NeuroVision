@@ -33,7 +33,7 @@ Neurovision est un projet utilisant le Deep Learning pour détecter les tumeurs 
 - Tkinter
 - cv2
 
-  Tout les modules sont présents dans le fichier requirement.txt
+  Tous les modules sont présents dans le fichier requirement.txt
 
 ## Choix du nombre d'époque en fonction du LL
 
