@@ -1,7 +1,8 @@
-# NeuroVision ( Anciennement MedAi )
+# NeuroVision (Anciennement MedAi)
+
 ## Description
 
-Neurovision est un projet utilisant le Deep Learning pour détecter les tumeurs cérébrales à partir d'images médicales. Une interface graphique intuitive a été développée pour faciliter l'interaction avec le modèle de détection. Actuellement, l'historique des détections et la base de données ne sont pas encore fonctionnels.
+NeuroVision est un projet utilisant le Deep Learning pour détecter les tumeurs cérébrales à partir d'images médicales. Une interface graphique intuitive a été développée pour faciliter l'interaction avec le modèle de détection. Actuellement, l'historique des détections et la base de données ne sont pas encore fonctionnels.
 
 ## Exemple
 
@@ -15,12 +16,12 @@ Neurovision est un projet utilisant le Deep Learning pour détecter les tumeurs 
 
 ## Fonctionnalités futures
 
- - Ajout d'une base de données. ( la base de donnée présente dans l'exemple ne fonctionne pas).
+- Ajout d'une base de données. (La base de données présente dans l'exemple ne fonctionne pas).
 
 ## État du projet
 
 - La détection des tumeurs fonctionne correctement.
-- Interface n'est qu'à moitier responsive et fonctionne (fonctionne parfaitement sur un écran 1920x1080 ) 
+- L'interface n'est qu'à moitié responsive et fonctionne correctement (elle fonctionne parfaitement sur un écran 1920x1080).
 - Les fonctionnalités d'historique et de base de données ne sont pas encore implémentées.
 
 ## Prérequis
@@ -33,27 +34,27 @@ Neurovision est un projet utilisant le Deep Learning pour détecter les tumeurs 
 - Tkinter
 - cv2
 
-  Tous les modules sont présents dans le fichier requirement.txt
+Tous les modules sont présents dans le fichier `requirements.txt`.
 
-## Choix du nombre d'époque en fonction du LL
+## Choix du nombre d'époques en fonction du LL
 
-Nous avons choisi un nombre d'epoch situé entre 8 et 12 afin d'évité tout underfitting ou overfitting
+Nous avons choisi un nombre d'époques situé entre 8 et 12 afin d'éviter tout underfitting ou overfitting.
 
 ![Brain Tumor Detection](readme/sweetpoint.png)
 
 ## Installation
 
-1. installer les modules :
+1. Installer les modules :
    ```bash
    pip install -r requirements.txt
    ```
 
-
-## Utilisation 
+## Utilisation
 
 ```bash
 python main.py
 ```
 
-## Contribution 
+## Contribution
+
 Les contributions sont les bienvenues ! Veuillez créer une pull request ou ouvrir une issue pour discuter des changements que vous souhaitez apporter.
